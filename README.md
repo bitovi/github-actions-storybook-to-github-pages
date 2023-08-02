@@ -19,7 +19,7 @@ This project is supported by [Bitovi, A DevOps consultancy](https://www.bitovi.c
 
 You can **get help or ask questions** on our:
 
-- [Discord Community](https://discord.gg/J7ejFsZnJ4Z!
+- [Discord Community](https://discord.gg/J7ejFsZnJ4Z)
 
 
 Or, you can hire us for training, consulting, or development. [Set up a free consultation](https://www.bitovi.com/services/devops-consulting).
