@@ -20,7 +20,6 @@ inputs:
   build_command:
     description: 'Specifies the command to run after npm ci for the build'
     required: false
-    # TODO: yarn?  npm run build (instead of build-storybook)?
     default: 'npm run build-storybook'
 outputs:
   page_url:
