@@ -67,7 +67,8 @@ The following inputs can be used as `step.with` keys
 |------------------|---------|------------------------------------|
 | `checkout`          | T/F  | Set to `false` if the code is already checked out (Default is `true`) (Optional) |
 | `path` | String | Path of output files, Default is `dist/storybook` (Optional)|
-| `build_command` | String | Specifies the command to run after `npm ci` for the build, Default is `npm run build` (Optional)|
+| `install_command` | String | 'Specifies the command to run the installation. Default is `npm ci`. (Optional) |
+| `build_command` | String | Specifies the command to run after the `install_command` for the build, Default is `npm run build-storybook` (Optional)|
 
 # Customizing
 
@@ -86,7 +87,7 @@ jobs:
 > *Note:* This is helpful when you have a custom domain
 
 <details>
-  <summary>Full example with environment</summary>
+  <summary>Full example with environment and yarn usage</summary>
 
   ```yaml
   on:
@@ -110,6 +111,8 @@ jobs:
         uses: bitovi/github-actions-storybook-to-github-pages@v1.2.0
         with:
           path: build # change to your build folder
+          install_command: yarn install
+          build_command: yarn run build-storybook
   ```
 </details>
 
