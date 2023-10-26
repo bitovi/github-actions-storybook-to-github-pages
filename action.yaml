@@ -13,6 +13,10 @@ inputs:
     required: false
     # TODO: where does storybook output by default?
     default: 'dist/storybook'
+  install_command:
+    description: 'Specifies the command to run the installation.'
+    required: false
+    default: 'npm ci'
   build_command:
     description: 'Specifies the command to run after npm ci for the build'
     required: false
@@ -37,7 +41,7 @@ runs:
       shell: bash
       run: |
         echo "::group::Build"
-        npm ci
+        ${{ inputs.install_command }}
         ${{ inputs.build_command }}
         echo "::endgroup::"
 
