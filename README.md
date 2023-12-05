@@ -27,6 +27,7 @@ You can **get help or ask questions** on our:
 
 
 Or, you can hire us for training, consulting, or development. [Set up a free consultation](https://www.bitovi.com/services/devops-consulting).
+![alt](https://bitovi-gha-pixel-tracker-deployment-main.bitovi-sandbox.com/pixel/Gdt6n09E4ZQXobSMFtcde)
 
 # Basic Use
 
@@ -134,3 +135,5 @@ The scripts and documentation in this project are released under the [MIT Licens
 
 # We want to hear from you.
 Come chat with us about open source in our Bitovi community [Discord](https://discord.gg/J7ejFsZnJ4Z)!
+
+
