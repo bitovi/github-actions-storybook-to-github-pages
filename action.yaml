@@ -45,12 +45,12 @@ runs:
         echo "::endgroup::"
 
     - name: 'upload'
-      uses: actions/upload-pages-artifact@v1.0.4
+      uses: actions/upload-pages-artifact@v2.0.0
       with: 
         path: ${{ inputs.path }}
 
     - id: deploy
       name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v1
+      uses: actions/deploy-pages@v3
       with:
         token: ${{ github.token }}
