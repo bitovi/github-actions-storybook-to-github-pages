@@ -45,7 +45,7 @@ runs:
         echo "::endgroup::"
 
     - name: 'upload'
-      uses: actions/upload-pages-artifact@v2.0.0
+      uses: actions/upload-pages-artifact@v2
       with: 
         path: ${{ inputs.path }}
 
