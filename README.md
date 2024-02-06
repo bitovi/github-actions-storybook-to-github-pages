@@ -23,7 +23,7 @@ This project is supported by [Bitovi, A DevOps consultancy](https://www.bitovi.c
 
 You can **get help or ask questions** on our:
 
-- [Discord Community](https://discord.gg/J7ejFsZnJ4Z)
+- [Discord Community](https://discord.gg/zAHn4JBVcX)
 
 
 Or, you can hire us for training, consulting, or development. [Set up a free consultation](https://www.bitovi.com/services/devops-consulting).
@@ -134,6 +134,6 @@ The scripts and documentation in this project are released under the [MIT Licens
 [Bitovi](https://www.bitovi.com/) is a proud supporter of Open Source software.
 
 # We want to hear from you.
-Come chat with us about open source in our Bitovi community [Discord](https://discord.gg/J7ejFsZnJ4Z)!
+Come chat with us about open source in our Bitovi community [Discord](https://discord.gg/zAHn4JBVcX)!
 
 
