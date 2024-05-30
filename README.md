@@ -5,6 +5,8 @@
 This action uses the new GitHub Actions publishing method which allows you to create an artifact that contains the result of the build and serves the files in the artifact on the Pages site. There’s no need to check files back into your repository, keeping it nice and clean.
 
 
+
+
 ## Action Summary
 This action deploys Storybook to Github Pages.  The build process should create static files and put them into a build direcory that will be moved into your Pages hosting location.  
 
@@ -17,6 +19,11 @@ If you would like to deploy a backend app/service, check out our other actions:
 <br/>
 
 **And more!**, check our [list of actions in the GitHub marketplace](https://github.com/marketplace?category=&type=actions&verification=&query=bitovi)
+
+## Getting Started Intro Video
+<a href="https://www.youtube.com/watch?v=15RCr_P4Btw&ab_channel=Bitovi">
+ <img src="https://github.com/bitovi/github-actions-storybook-to-github-pages/assets/8335079/475340ad-35b8-45d9-bf58-f667f7d81333" width="500" alt="Getting Started - Youtube" />
+</a>
 
 # Need help or have questions?
 This project is supported by [Bitovi, A DevOps consultancy](https://www.bitovi.com/services/devops-consulting).
