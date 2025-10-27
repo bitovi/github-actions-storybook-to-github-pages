@@ -34,7 +34,7 @@ runs:
   steps:
     - name: Checkout if required
       if: ${{ inputs.checkout == 'true' }}
-      uses: actions/checkout@v4
+      uses: actions/checkout@08eba0b27e820071cde6df949e0beb9ba4906955 # v4
 
     - name: 'Build'
       shell: bash
@@ -45,13 +45,13 @@ runs:
         echo "::endgroup::"
 
     - name: 'upload'
-      uses: actions/upload-pages-artifact@v3
+      uses: actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa # v3
       with: 
         path: ${{ inputs.path }}
 
     - id: deploy
       name: Deploy to GitHub Pages
-      uses: actions/deploy-pages@v4
+      uses: actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e # v4
       with:
         token: ${{ github.token }}
 
