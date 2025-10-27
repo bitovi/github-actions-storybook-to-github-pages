@@ -1,0 +1,12 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    groups:
+      github-actions:
+        applies-to: version-updates
+        update-types: ['minor', 'patch']
+    cooldown:
+      default-days: 7
+    schedule:
+      interval: 'monthly'
