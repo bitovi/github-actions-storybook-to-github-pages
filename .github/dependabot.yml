@@ -8,5 +8,20 @@ updates:
         update-types: ['minor', 'patch']
     cooldown:
       default-days: 7
+    open-pull-requests-limit: 1
     schedule:
       interval: 'monthly'
+      
+  # Quarterly major updates for GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "quarterly"
+    open-pull-requests-limit: 1
+    cooldown:
+      default-days: 7
+    groups:
+      github-actions-majors:
+        applies-to: version-updates
+        update-types:
+          - "major"
