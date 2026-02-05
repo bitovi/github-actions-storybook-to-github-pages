@@ -1,0 +1,17 @@
+version: 2
+updates:
+  - package-ecosystem: 'github-actions'
+    directory: '/'
+    groups:
+      github-actions:
+        applies-to: version-updates
+        update-types: ['minor', 'patch']
+      github-actions-majors:
+        applies-to: version-updates
+        update-types:
+          - "major"
+    cooldown:
+      default-days: 7
+    open-pull-requests-limit: 1
+    schedule:
+      interval: 'monthly'
