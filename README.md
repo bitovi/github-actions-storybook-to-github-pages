@@ -57,7 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - id: build-publish
-      uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+      uses: bitovi/github-actions-storybook-to-github-pages@v1.0.4
       with:
         path: build # change to your build folder
 ```
@@ -120,7 +120,7 @@ jobs:
       runs-on: ubuntu-latest
       steps:
       - id: build-publish
-        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.3
+        uses: bitovi/github-actions-storybook-to-github-pages@v1.0.4
         with:
           path: build # change to your build folder
           install_command: yarn install
